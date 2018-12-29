@@ -8,7 +8,7 @@ html,
 body {
     text-rendering: optimizeLegibility;    
     font-family: 'Poppins', sans-serif;    
-    font-size: 24px;
+    font-size: 18px;
     color: white;
 }
 /* Typograhpy */
@@ -47,12 +47,15 @@ header {
     justify-content: center;
     height: 100vh;
     background-image: url("img/headerBG2.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('img/headerBG2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('img/headerBG2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 header h1 {
-    font-size: 250%;
+    font-size: 2.5rem;
+}
+header h2 {
+    font-size: 1.2rem;
 }
 header ul {
     display: flex;
@@ -60,8 +63,8 @@ header ul {
     list-style: none;
 }
 header li {
+    font-size: 1rem;
     padding-right: 10px;
-    font-size: 150%;
 }
 /* About */
 .about {
@@ -72,11 +75,11 @@ header li {
     height: 100vh;
     color: gray;
 }
-.about h2 {
-    font-size: 350%;
+.about h1 {
+    font-size: 2.5rem;
 }
 .about p {
-    font-size: 150%;
+    font-size: 1.2rem;
 }
 /* Properties */
 .properties {
@@ -99,7 +102,19 @@ header li {
     box-shadow: 2px 2px 5px 0px rgba(224,224,224,1);
 }
 .properties h1 {
-    font-size: 350%;
+    font-size: 2rem;
+}
+.card h2 {
+    font-size: 1.2rem;
+}
+.card h3 {
+    font-size: 1.5rem;
+}
+.card p {
+    font-size: 0.9rem;
+}
+.card span {
+    font-size: 0.8rem;
 }
 .card-Title {
     padding: 10px 10px;
@@ -128,14 +143,20 @@ footer {
     color: white;
     padding: 25px 0px;
 }
+footer h2 {
+    font-size: 0.8rem;
+}
+footer p {
+    font-size: 0.8rem;
+}
 .links {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 .links li {
+    font-size: 0.8rem;
     font-weight: 300;
-    font-size: 100%;
     padding-right: 10px;
 }
 .social-media {
@@ -145,7 +166,7 @@ footer {
     list-style: none;
 }
 .social-media li {
-    font-size: 150%;
+    font-size: 0.8rem;
     padding-right: 10px;
 }
 
