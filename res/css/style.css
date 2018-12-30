@@ -46,8 +46,8 @@ header {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: url("img/headerBG2.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('img/headerBG2.jpg');
+    background-image: url("img/headerBG4.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('img/headerBG4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -72,14 +72,44 @@ header li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     color: gray;
 }
 .about h1 {
     font-size: 2.5rem;
 }
 .about p {
+    padding-bottom: 25px;
     font-size: 1.2rem;
+}
+.user-Card {
+    display: flex;
+    flex-flow: row wrap;
+}
+.user-NameImg {
+    padding-right: 25px;
+}
+.user-NameImg img {
+    border-radius: 50%;
+}
+.user-NameImg ul {
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+.user-NameImg li {
+    font-size: 1.5rem;
+    padding-right: 10px;
+}
+.user-About {
+    flex: 2.5;
+}
+.user-Card h2 {
+    font-size: 1rem;
+}
+.user-Card p {
+    font-size: 0.8rem;
 }
 /* Properties */
 .properties {
@@ -139,7 +169,7 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: auto;
-    background-color: #264348;
+    background-color: #757D75;
     color: white;
     padding: 25px 0px;
 }
