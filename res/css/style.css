@@ -9,7 +9,7 @@ body {
     text-rendering: optimizeLegibility;    
     font-family: 'Poppins', sans-serif;    
     font-size: 18px;
-    color: white;
+    color: #37474F;
 }
 /* Typograhpy */
 h1,h2,h3,h4,h5 {
@@ -21,7 +21,7 @@ p {
     line-height: 150%;
 }
 li {
-    font-weight: 100;
+    font-weight: 300;
     line-height: 150%;
 }
 a:link {
@@ -40,6 +40,12 @@ a:active {
     color: white;
     text-decoration: none;
 }
+.greenAccent {
+    color: #2ecc71;
+}
+.redAccent {
+    color:  #cc2e3a;
+}
 /* Header */
 header {
     display: flex;
@@ -49,7 +55,8 @@ header {
     background-image: url("img/headerBG4.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('img/headerBG4.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
 }
 header h1 {
     font-size: 2.5rem;
@@ -73,7 +80,6 @@ header li {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: gray;
 }
 .about h1 {
     font-size: 2.5rem;
@@ -119,7 +125,6 @@ header li {
     align-items: center;
     min-height: 100vh;
     background-color: #ececec;
-    color: gray;
     padding: 50px 0px;
 }
 .card {
@@ -134,16 +139,16 @@ header li {
 .properties h1 {
     font-size: 2rem;
 }
-.card h2 {
+.card h2, h3 {
     font-size: 1.2rem;
 }
-.card h3 {
-    font-size: 1.5rem;
+.card h4 {
+    font-size: 2rem;
 }
 .card p {
     font-size: 0.9rem;
 }
-.card span {
+.pcm {
     font-size: 0.8rem;
 }
 .card-Title {
@@ -169,7 +174,7 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: auto;
-    background-color: #757D75;
+    background-color: #37474F;
     color: white;
     padding: 25px 0px;
 }
@@ -196,7 +201,7 @@ footer p {
     list-style: none;
 }
 .social-media li {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     padding-right: 10px;
 }
 
