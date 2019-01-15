@@ -43,9 +43,6 @@ a:active {
 .greenAccent {
     color: #2ecc71;
 }
-.redAccent {
-    color:  #cc2e3a;
-}
 .privacyPolicy {
     display: flex;
     align-items: center;
@@ -73,35 +70,25 @@ a:active {
 	font: inherit;
 	cursor: pointer;
     outline: inherit;
-    -webkit-box-shadow: 2px 2px 5px 0px #353b48;
-    -moz-box-shadow: 2px 2px 5px 0px #353b48;
-    box-shadow: 2px 2px 5px 0px #353b48;
 }
-
-.horizontalLine {
-    display: block;
-    height: 5px;
-    width: 25%;
-    margin: 10px 0;
-    background-color: #2ecc71;
-    transition: width ease 0.2s;
-    -webkit-transition: width ease 0.2s;
-    -moz-transition: width ease 0.2s;
-    -ms-transition: width ease 0.2s;
-    -o-transition: width ease 0.2s;
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
-.horizontalLine:hover {
-    width: 45%;
+.socialMedia li {
+    font-size: 1.2rem;
+    padding-right: 10px;
+    color: #353b48;
 }
-
 /* Header */
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: url("img/headerBG4.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/headerBG4.jpg');
+    background-image: url("img/headerBG.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/headerBG.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: white;
@@ -140,13 +127,7 @@ header li {
     padding-bottom: 25px;
     font-size: 1rem;
 }
-.aboutSM {
-    display: flex;
-    flex-direction: row;
-}
-.aboutSM ul {
-    list-style: none;
-}
+
 
 /* Equire */
 .enquire {
