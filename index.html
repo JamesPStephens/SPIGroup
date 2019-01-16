@@ -83,14 +83,15 @@
                 <div class="col-3"></div>
             </div>
             <div class="row">
-                <div class="col-3"></div>
+                <div class="col-3">
+                </div>
                 <div class="col-6">
-                    <form class="contactForm">
-                        <input type="text" placeholder="Name" name="name">
-                        <input type="text" placeholder="Email Address" name="emailAddress">
-                        <input type="number" placeholder="Phone Number" name="phoneNumber">
-                        <textarea placeholder="Message"></textarea>
-                        <input class="submit" type="submit" value="Submit">
+                    <form class="contactForm" action="https://formspree.io/jamesstephens612@gmail.com" method="POST">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="email" placeholder="Email Address" name="emailAddress" required>
+                        <input type="tel" pattern="^[0-9-+s()]*$" placeholder="Telephone Number" maxlength="11">
+                        <textarea placeholder="Message" maxlength="256" required></textarea>
+                        <input class="submit" type="submit" value="Send">
                     </form>
                 </div>
                 <div class="col-3"></div>
@@ -116,7 +117,7 @@
     </footer>
 
 
-    <div class="privacyPolicy" id="privacyPolicy">
+    <!-- <div class="privacyPolicy" id="privacyPolicy">
             <div class="container">
                 <div class="row">
                     <div class="col-6">
@@ -128,7 +129,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 </body>
